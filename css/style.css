@@ -1,0 +1,30 @@
+.div
+{
+    background-color: crimson;
+}
+#first 
+{
+    color: whitesmoke;
+    background-color: tomato;
+    text-align: center;
+    font-size: large;
+}
+#second
+{
+    color: rgb(145, 0, 0);
+    background-color:darkgrey;
+    text-align: left;
+    font-size: large;
+}
+img
+{
+    width: 30%;
+    height: 30%;
+    margin: 1.5%;
+    
+}
+footer
+{
+    text-align: center;
+    font-size: large;
+}
