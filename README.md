@@ -63,3 +63,13 @@ I learned about
 4- I learned about truthy and falsy values.
 
 5-We also had a revision of loops, (for, while, ).
+
+## Summary of lab 4 
+
+I worked this task with my Partner Anas Othman Abu Ghalia.
+
+The link when I was a driver: https://github.com/AnasAGc/About-me/pull/2
+
+the link when I was a navigator: https://github.com/Omardyab/About-me/pull/1 
+
+Credit Anas : helped me with the commands and functioing my code :) 
