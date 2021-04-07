@@ -3,7 +3,7 @@ let counter=0;
 let username=prompt('Hello and welcome to my website, what\'s your name ? ');
 alert('Welcome ' +username+ ',  I know you are curious about me and would like to have a game with you, so you get to know me better :)');
 
-
+function  question1(){
 
 let age=prompt('I am guess you are younger but lets see, do you think I am older than 35 ? ');
 age=age.toLowerCase();
@@ -32,6 +32,10 @@ default:
   }
   break;
 }
+}
+question1();
+
+function  question2(){
 let answer=prompt('What type of music you think I like "classic, jazz or pop" ');
 answer=answer.toLowerCase();
 console.log(answer);
@@ -54,6 +58,11 @@ default:
   alert('I like classic one\'s ');
   //console.log(answer);
 }
+}
+
+question2();
+
+function  question3(){
 alert('omarirlaopoerappaerpalomartujehnabgerwnmasdoityawerpoaertawwbebrhwasdafrepizzaoueraerpalomar');
 answer=prompt(username+', there was a one word of my faviorte food, if you notice please type it');
 answer=answer.toLowerCase();
@@ -72,6 +81,10 @@ default:
   //console.log(answer);
   break;
 }
+}
+question3();
+
+function  question4(){
 answer=prompt(username+', Now which month you think I was born I "Hnt: the first quarter of the year and with a horoscope of Aquarius"');
 answer=answer.toLowerCase();
 console.log(answer);
@@ -88,8 +101,10 @@ default:
   //console.log(answer);
   break;
 }
+}
+question4();
 
-
+function  question5(){
 let gn=prompt('how many characters you think my name have, hint choose a number between 2 and 10, you only have 4 attempts to guess it ');
 gn=parseInt(gn);
 console.log(gn);
@@ -130,6 +145,10 @@ while(gg!==5)
   }
   gg++;
 }
+}
+question5()
+
+function  question6(){
 answer=alert(username+', Now which of these you think is a Semantic Elements in "HTML": "<div>","<form>","<table>","<span>","<article>","<aside>"');
 let answers=['<div>','<span>'];
 // console.log(answers);
@@ -174,3 +193,6 @@ else
   answer=confirm('Now enjoy my website ' + username+ ' :)');
   //console.log(counter);
 }
+}
+question6();
+
